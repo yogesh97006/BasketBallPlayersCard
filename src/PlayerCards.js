@@ -5,7 +5,7 @@ function PlayerCards({Img,Name,Position,PlayerStatus}) {
 
   return (
     <div className='container'>
-       <img src={Img} alt="Nikola Jokić Image"/> 
+       <img src={Img} alt="Nikola Jokić"/> 
         <h2>Name : {Name}</h2>
         <h2>Position : {Position}</h2>
        <hr/>
